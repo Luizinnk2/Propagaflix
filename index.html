@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Propaga Flix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f8ff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .logo {
+      display: flex;
+      align-items: center;
+    }
+    header .logo img {
+      height: 80px;
+      margin-right: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 12px;
+      background-color: white;
+      padding: 5px;
+    }
+    header .logo span {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: white;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #003366, #3399ff);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .hero img {
+      max-width: 100%;
+      margin-top: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #003366;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .service {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .service h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+    .sales-page {
+      background-color: #e6f2ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .sales-page h2 {
+      color: #003366;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .product {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .product h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+    .product p {
+      margin: 10px 0;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .contact {
+      background-color: #3399ff;
+      padding: 40px 20px;
+      color: white;
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: white;
+      color: #003366;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Logo_Placeholder.png" alt="Logo Propaga Flix">
+      <span>Propaga Flix</span>
+    </div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#vendas">Adquirir</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Impulsione sua microempresa</h1>
+    <p>Marketing, organização e presença digital com a Propaga Flix</p>
+    <img src="https://images.unsplash.com/photo-1581091870622-2d1dfeb5d3c4?fit=crop&w=1000&q=80" alt="Empreendimento em destaque">
+  </div>
+
+  <section id="sobre" class="section">
+    <h2>Sobre a Propaga Flix</h2>
+    <p>A Propaga Flix foi criada para ajudar microempresas a alcançarem o próximo nível. Com soluções completas em marketing, organização e estrutura digital, tornamos pequenos negócios mais eficientes, bonitos e confiáveis.</p>
+  </section>
+
+  <section id="servicos" class="section">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Marketing para Redes Sociais</h3>
+        <p>Posts criativos, artes para stories e muito mais para atrair clientes.</p>
+      </div>
+      <div class="service">
+        <h3>Criação de Logos</h3>
+        <p>Identidade visual moderna e profissional para sua marca.</p>
+      </div>
+      <div class="service">
+        <h3>Sites Profissionais</h3>
+        <p>Presença digital com sites responsivos e bonitos.</p>
+      </div>
+      <div class="service">
+        <h3>Planilhas Inteligentes</h3>
+        <p>Controle de vendas, despesas e estoque de forma organizada.</p>
+      </div>
+      <div class="service">
+        <h3>Melhoria da Estrutura Empresarial</h3>
+        <p>Organização interna para seu negócio crescer com segurança.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="vendas" class="sales-page">
+    <h2>Adquira nossos serviços</h2>
+    <div class="product">
+      <h3>Pacote Inicial</h3>
+      <p>Inclui: identidade visual, 5 posts e 1 planilha de controle.</p>
+      <a href="https://wa.me/5541995698466" target="_blank">Quero este pacote</a>
+    </div>
+    <div class="product">
+      <h3>Pacote Avançado</h3>
+      <p>Inclui: logo, posts mensais, site e estrutura empresarial.</p>
+      <a href="https://wa.me/5541995698466" target="_blank">Contratar agora</a>
+    </div>
+    <div class="product">
+      <h3>Pacote Personalizado</h3>
+      <p>Montamos um pacote sob medida com os serviços que você precisa.</p>
+      <a href="https://wa.me/5541995698466" target="_blank">Solicitar pacote</a>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Entre em contato com a gente</h2>
+    <p>Pronto para crescer com a Propaga Flix?</p>
+    <a href="https://www.instagram.com/propagafliix" target="_blank">Fale conosco pelo Instagram</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Propaga Flix. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
